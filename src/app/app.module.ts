@@ -8,7 +8,8 @@ import { HeaderComponent } from './component/header/header.component';
 import { LayoutComponent } from './component/layout/layout.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { HomepageComponent } from './component/homepage/homepage.component';
-import { AboutComponent } from './component/about/about.component';
+import { AboutComponent } from './page/about/about.component';
+import { NavigationComponent } from './component/navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AboutComponent } from './component/about/about.component';
     LayoutComponent,
     FooterComponent,
     HomepageComponent,
-    AboutComponent
+    AboutComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
