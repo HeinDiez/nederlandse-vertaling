@@ -11,6 +11,8 @@ import { HomepageComponent } from './component/homepage/homepage.component';
 import { AboutComponent } from './page/about/about.component';
 import { NavigationComponent } from './component/navigation/navigation.component';
 
+import {MatIconModule} from '@angular/material/icon';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,8 @@ import { NavigationComponent } from './component/navigation/navigation.component
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
