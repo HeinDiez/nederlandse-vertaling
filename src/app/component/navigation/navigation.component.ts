@@ -9,6 +9,7 @@ export class NavigationComponent {
   mobile=true;
   //add use profile component.
   navigationList = [
-    {name: 'Home'}
+    {name: 'Home'},
+    {name: 'Support'},
   ]
 }
