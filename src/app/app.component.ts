@@ -9,7 +9,6 @@ import { Router } from '@angular/router';
 export class AppComponent {
   constructor(private _router: Router) { }
   title = 'nederlandse-vertaling';
-  description = 'netherland translation'
   ngOnInit() {
     console.log(this._router, "check routner")
     this._router.navigate(['home'])
